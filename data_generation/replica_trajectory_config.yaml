@@ -1,0 +1,38 @@
+voxel_size: 0.005
+
+# hotel_0
+min_bound: [-2.9, -1.7, -0.5]
+max_bound: [5.7, 2.5, 1.0]
+z_min: -0.2 # for camera origin
+z_max: 1.0
+room_bound_min: [[-2.9, -1.7, -0.5], [2.0, -1.7, -0.5], [2.0, 0.7, -0.5]]
+room_bound_max: [[2.0, 2.5, 1.0], [5.7, 0.7, 1.0], [5.7, 2.5, 1.0]]
+way_points: [[14, 34], [29, 71], [63, 32], [126, 64], [161, 51], [138, 30], [189, 20]]
+room_index: [0, 0, 0, 1, 2, 2]
+erode_kernel: 3
+# # apartment_1
+# min_bound: [-2.6, -1.0, -1.2]
+# max_bound: [8.1, 6.9, 0.2]
+# z_min: -0.7
+# z_max: 0.1
+# room_bound_min: [[2.0, 3.2, -1.2], [2.0, -1.0, -1.2], [-2.6, -1.0, -1.2]]
+# room_bound_max: [[8.1, 6.9, 0.2], [8.1, 2.8, 0.2], [2.0, 6.9, 0.2]]
+# way_points: [[145, 136], [178, 113], [146, 85], [98, 80], [97, 16], [32, 28], [72, 67], [37, 131], [65, 43]]
+# room_index: [0, 0, 0, 1, 2, 2, 2, 2]
+# erode_kernel: 7
+# # apartment_2
+# min_bound: [-2.7, -1.7, -1.3]
+# max_bound: [6.8, 8.5, 0.5]
+# z_min: -0.7 # for camera origin
+# z_max: 0.5
+# room_bound_min: [[-2.2, -0.8, -1.3], [0.2, -1.7, -1.3], [2.2, 2.0, -1.3], [2.2, 5.0, -1.3], [-2.7, 2.0, -1.3]]
+# room_bound_max: [[-0.3, 1.0, 0.5], [6.8, 2.0, 0.5], [6.8, 5.0, 0.5], [6.8, 8.5, 0.5], [2.2, 8.5, 0.5]]
+# way_points: [[27, 9], [59, 16], [50, 60], [50, 75], [79, 68], [176, 52], [78, 66], [98, 123], [131, 102], [155, 121], [105, 121], [105, 146], [169, 165], [114, 173]]
+# room_index: [0, 0, 4, 4, 1, 1, 4, 2, 2, 2, 4, 3, 3]
+# erode_kernel: 5
+
+# hotel_0
+scene_file: "/data/Datasets/Replica/vmap/hotel_0/mesh.ply"
+instance2class_mapping: "/data/Datasets/Replica/vmap/hotel_0/habitat/info_semantic.json"
+save_path: "/data/Datasets/Replica/vmap/hotel_0/imap/00/"
+pose_file: "/data/Datasets/Replica/vmap/hotel_0/imap/00/traj_w_c.txt"
